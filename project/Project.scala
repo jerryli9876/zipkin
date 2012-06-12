@@ -87,9 +87,9 @@ object Zipkin extends Build {
     )
 
   val CASSIE_VERSION  = "0.22.0"
-  val FINAGLE_VERSION = "5.0.0"
+  val FINAGLE_VERSION = "5.0.3"
   val OSTRICH_VERSION = "8.0.1"
-  val UTIL_VERSION    = "5.0.3"
+  val UTIL_VERSION    = "5.1.2"
 
   lazy val server =
     Project(
